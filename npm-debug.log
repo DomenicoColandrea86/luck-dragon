@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/DomenicoColandrea/.nvm/v0.10.38/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'lint' ]
+2 info using npm@2.14.3
+3 info using node@v0.10.38
+4 verbose run-script [ 'prelint', 'lint', 'postlint' ]
+5 info prelint luckDragon@1.0.0
+6 info lint luckDragon@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info luckDragon@1.0.0 Failed to exec lint script
+9 verbose stack Error: luckDragon@1.0.0 lint: `eslint .`
+9 verbose stack Exit status 1
+9 verbose stack     at EventEmitter.<anonymous> (/Users/DomenicoColandrea/.nvm/v0.10.38/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+9 verbose stack     at EventEmitter.emit (events.js:98:17)
+9 verbose stack     at ChildProcess.<anonymous> (/Users/DomenicoColandrea/.nvm/v0.10.38/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+9 verbose stack     at ChildProcess.emit (events.js:98:17)
+9 verbose stack     at maybeClose (child_process.js:766:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:833:5)
+10 verbose pkgid luckDragon@1.0.0
+11 verbose cwd /Users/DomenicoColandrea/RCA Projects/lunch_and_learn/luck-dragon
+12 error Darwin 14.4.0
+13 error argv "node" "/Users/DomenicoColandrea/.nvm/v0.10.38/bin/npm" "run" "lint"
+14 error node v0.10.38
+15 error npm  v2.14.3
+16 error code ELIFECYCLE
+17 error luckDragon@1.0.0 lint: `eslint .`
+17 error Exit status 1
+18 error Failed at the luckDragon@1.0.0 lint script 'eslint .'.
+18 error This is most likely a problem with the luckDragon package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     eslint .
+18 error You can get their info via:
+18 error     npm owner ls luckDragon
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]
